@@ -73,7 +73,6 @@ GET /apirule1_v/user/1
 
 ➡️ Returns user data without any auth check.
 
-S1
 ![](OWASP_API_1/1.png)
 
 ---
@@ -86,7 +85,6 @@ GET /apirule1_v/user/2
 
 ➡️ Just increment ID → access other users.
 
-S2
 ![](OWASP_API_1/2.png)
 
 ---
@@ -137,7 +135,6 @@ email=hr@mht.com&password=anything
 
 ➡️ Login works even with wrong password 💀
 
-S3
 ![](OWASP_API_1/3.png)
 
 ---
@@ -205,7 +202,6 @@ GET /apirule3/comment_v/2
 
 ➡️ Returns full dataset including hidden fields.
 
-S6
 ![](OWASP_API_1/6.png)
 
 ---
@@ -224,7 +220,6 @@ GET /apirule3/comment_v/3
 
 ➡️ Username → **hacker#!**
 
-S7
 ![](OWASP_API_1/7.png)
 
 ---
@@ -272,7 +267,6 @@ email=hr@mht.com
 
 ➡️ Response → **200**
 
-S8
 ![](OWASP_API_1/8.png)
 
 ---
@@ -288,7 +282,6 @@ email=sale@mht.com
 Invalid Email
 ```
 
-S9
 ![](OWASP_API_1/9.png)
 
 ---
@@ -361,6 +354,8 @@ isAdmin: 1
 ### ✅ Answer
 
 * isAdmin in hidden field safe? → **No (nay)**
+
+![](OWASP_API_1/10.png)
 
 ---
 
