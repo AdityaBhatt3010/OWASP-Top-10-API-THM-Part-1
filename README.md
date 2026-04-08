@@ -355,8 +355,6 @@ isAdmin: 1
 
 * isAdmin in hidden field safe? → **No (nay)**
 
-![](OWASP_API_1/10.png)
-
 ---
 
 # 📌 Task 8 — Conclusion
@@ -370,6 +368,8 @@ This lab basically drills 5 core API failures:
 3. Data Exposure → Too much data returned
 4. No Rate Limiting → Abuse possible
 5. Function Auth → Privilege escalation
+
+![](OWASP_API_1/10.png)
 
 ---
 
